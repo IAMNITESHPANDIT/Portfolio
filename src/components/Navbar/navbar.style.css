@@ -1,0 +1,33 @@
+.sub-container{
+    position: relative;
+}
+.styled-box{
+    height: 250px;
+    width:400px;
+    position:absolute;
+    top:-20px;
+    right:2px;
+    z-index:-1;
+    background-color:#19EAC4;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.navbar{
+    z-index: 3;
+}
+.imgProfile{
+    width: 150px;
+    height: 180px;
+    position:absolute;
+    top: 79px;
+    left: 120px;
+}
+.name{
+  color:#19EAC4;
+}
+
+.follow > *{
+    margin-left: 15px;
+    cursor: pointer;
+
+}
