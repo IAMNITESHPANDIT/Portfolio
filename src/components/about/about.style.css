@@ -1,0 +1,17 @@
+.boxOne{
+  background-color:#19EAC4;
+  width: 220px;
+  height: 250px;
+  position:relative;
+  border-radius:0.5rem;
+}
+
+.proImg{
+  position: absolute;
+  left: 20px;
+  top: 90px;
+  width:120px;
+  height:90px;
+  
+
+}
