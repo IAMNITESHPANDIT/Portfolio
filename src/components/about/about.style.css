@@ -8,10 +8,17 @@
 
 .proImg{
   position: absolute;
-  left: 20px;
+  left: 22px;
   top: 90px;
   width:120px;
   height:90px;
+}
+.boxOne{
+  margin-left:150px
+}
+.readmeBtn{
+  background-color: #19EAC4;
+  padding:10px;
+  border:0px;
   
-
 }
