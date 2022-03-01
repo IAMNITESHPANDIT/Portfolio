@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+Chalo-deploy-karte-hain is a front-end template for building
+fast, robust, and adaptable web apps or sites.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ It does not impose a specific development
+philosophy or framework, so you're free to architect your code in the
+way that you want.
 
-## Available Scripts
+* Homepage: [https://iamniteshpandit.github.io/Portfolio//](https://iamniteshpandit.github.io/Portfolio//)
+* Source: [https://github.com/IAMNITESHPANDIT/Portfolio](https://github.com/IAMNITESHPANDIT/Portfolio)
+* Twitter: [@iamniteshpandit](https://twitter.com/iamniteshpandit)
 
-In the project directory, you can run:
+## Quick start
 
-### `npm start`
+Choose one of the following options:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Download the latest stable release from
+  (https://iamniteshpandit.github.io/Portfolio//).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ```bash
+  mkdir  portfolio
+  unzip portfolio
+  ```
 
-### `npm test`
+* Clone the git repo — `git clone
+  https://github.com/IAMNITESHPANDIT/portfolio` - and checkout the
+  [tagged release](https://github.com/IAMNITESHPANDIT/portfolio/releases)
+  you'd like to use. The `dist` folder represents the latest version of the
+  project for end users.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Install with [npm](https://www.npmjs.com/): `npm install html5-boilerplate`
+  or [yarn](https://yarnpkg.com/): `yarn add html5-boilerplate`. The resulting
+  `node_modules/html5-boilerplate/dist` folder represents the latest version of
+  the project for end users. Depending on what you want to use and how you want
+  to use it, you may have to copy and paste the contents of that folder into
+  your project directory.
 
-### `npm run build`
+* Using our new (https://github.com/IAMNITESHPANDIT/portfolio.git)
+  project, instantly fetch the latest npm published package (or any version
+  available on npm) with `npx`, `npm init` or `yarn create` without having to
+  install any dependencies. Running the following `npx` command installs the
+  latest version into a folder called `new-site`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ```
+  npx create-portfolio new-website
+  cd new-website
+  npm install
+  npm start
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Designed with progressive enhancement in mind.
+* Includes:
+  * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
+    that improve the web site's performance and security
+* Placeholder Open Graph elements and attributes.
+* An example package.json file with [Parcel](https://parceljs.org/) commands
+  built in to jumpstart application development
+* Placeholder CSS Media Queries.
+* Useful CSS helper classes.
+* Default print styles, performance optimized.
+* Protection against any stray `console` statements causing JavaScript
+  errors in older browsers.
+* "Delete-key friendly." Easy to strip out parts you don't need.
+* Extensive documentation.
 
-### `npm run eject`
+## Browser support
+You can find our range of supported browsers in our [package.json](https://github.com/IAMNITESHPANDIT/portfolio/blob/main/package.json#L56-L62)
+```json
+   "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+```
+## Documentation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Take a look at the [documentation table of contents](dist/doc/TOC.md). This
+documentation is bundled with the project which makes it available for offline
+reading and provides a useful starting point for any documentation you want to
+write about your project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Hundreds of developers have helped to make the HTML5 Boilerplate. Anyone is
+welcome to [contribute](.github/CONTRIBUTING.md), however, if you decide to get
+involved, please take a moment to review the [guidelines](.github/CONTRIBUTING.md):
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* [Bug reports](.github/CONTRIBUTING.md#bugs)
+* [Feature requests](.github/CONTRIBUTING.md#features)
+* [Pull requests](.github/CONTRIBUTING.md#pull-requests)
 
-## Learn More
+### `Check this website`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://iamniteshpandit.github.io/Portfolio/
