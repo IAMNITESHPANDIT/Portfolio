@@ -5,8 +5,8 @@ fast, robust, and adaptable web apps or sites.
 philosophy or framework, so you're free to architect your code in the
 way that you want.
 
-* Homepage: [https://iamniteshpandit.github.io/Chalo-deploy-karte-hain//](https://iamniteshpandit.github.io/Chalo-deploy-karte-hain//)
-* Source: [https://github.com/IAMNITESHPANDIT/Chalo-deploy-karte-hain](https://github.com/IAMNITESHPANDIT/Chalo-deploy-karte-hain)
+* Homepage: [https://iamniteshpandit.github.io/Chalo-deploy-karte-hain//](https://iamniteshpandit.github.io/Portfolio//)
+* Source: [https://github.com/IAMNITESHPANDIT/Chalo-deploy-karte-hain](https://github.com/IAMNITESHPANDIT/Portfolio)
 * Twitter: [@iamniteshpandit](https://twitter.com/iamniteshpandit)
 
 ## Quick start
