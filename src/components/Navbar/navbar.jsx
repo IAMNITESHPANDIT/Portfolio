@@ -43,9 +43,9 @@ function NavBar() {
         <p className="lead ms-5 name">John Doe </p>
         <p className="lead ms-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quaerat? </p>
         <p className="h2 ms-5 follow">Follow me
-        <a><img className="img-fluid" src={s1} alt=".." width="20px" height="20px"/></a>
-        <a><img className="img-fluid" src={s2} alt=".." width="20px" height="20px"/></a>
-        <a><img className="img-fluid" src={s3} alt=".." width="20px" height="20px"/></a>
+        <a href="https://github.com/iamniteshpandit" target="_blank"><img className="img-fluid" src={s2} alt=".." width="20px" height="20px"/></a>
+        <a href="https://www.instagram.com/iamniteshpandit" target="_blank"><img className="img-fluid" src={s3} alt=".." width="20px" height="20px"/></a>
+        <a href="https://www.facebook.com/iamniteshpandit" target="_blank"><img className="img-fluid" src={s1} alt=".." width="20px" height="20px"/></a>
         </p>
     </div>
     <div className="styled-box d-md-block d-none">
