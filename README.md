@@ -1,4 +1,4 @@
-Chalo-deploy-karte-hain is a front-end template for building
+Portfolio is a front-end template for building
 fast, robust, and adaptable web apps or sites.
 
  It does not impose a specific development
@@ -20,6 +20,8 @@ Choose one of the following options:
   mkdir  portfolio
   unzip portfolio
   ```
+## Get Design with Figma
+https://www.figma.com/file/0HIQbQNwnh2nM5Z8XBSrge/Portfolio?node-id=1%3A2
 
 * Clone the git repo — `git clone
   https://github.com/IAMNITESHPANDIT/portfolio` - and checkout the
