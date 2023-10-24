@@ -93,6 +93,34 @@ involved, please take a moment to review the [guidelines](.github/CONTRIBUTING.m
 * [Feature requests](.github/CONTRIBUTING.md#features)
 * [Pull requests](.github/CONTRIBUTING.md#pull-requests)
 
+## Using Docker we can run the app
+# Running a Docker Image
+
+This guide will walk you through the process of running a Docker image for a Node.js application. Ensure that you have Docker installed on your system.
+
+## Step 1: Clone the Repository
+
+Clone the project repository to your local machine if you haven't already.
+
+```bash
+git clone https://github.com/IAMNITESHPANDIT/Portfolio.git
+cd portfolio
+
+## Step 2: build the image
+
+docker build -t your-image-name .
+
+## Step 3: run the image on sever
+
+docker run -d -p 3000:3000 your-image-name
+
+
+
+
+
+
+
+
 ### `Check this website`
 
 https://iamniteshpandit.github.io/Portfolio/
